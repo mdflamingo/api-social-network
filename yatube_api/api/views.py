@@ -1,5 +1,4 @@
 from rest_framework import permissions, viewsets
-
 from django.shortcuts import get_object_or_404
 
 from .permissions import IsAuthorOrReadOnlyPermission
